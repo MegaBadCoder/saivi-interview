@@ -1,0 +1,14 @@
+{
+  "name": "frontend-interview-tasks",
+  "version": "1.0.0",
+  "description": "Задачи для собеседования Front-end разработчика",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:solutions": "jest --config=solutions/jest.config.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
